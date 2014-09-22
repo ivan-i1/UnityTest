@@ -1,0 +1,443 @@
+fileFormatVersion: 2
+guid: 683516ad9cff4a54d8c95ab3bd56249f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Clown001_chin
+    100002: Clown001_tongue
+    100004: Clown001Head
+    100006: Clown001LArm1
+    100008: Clown001LArm2
+    100010: Clown001LArmCollarbone
+    100012: Clown001LArmPalm
+    100014: Clown001LLeg1
+    100016: Clown001LLeg2
+    100018: Clown001LLegAnkle
+    100020: Clown001Neck
+    100022: Clown001Pelvis
+    100024: Clown001RArm1
+    100026: Clown001RArm2
+    100028: Clown001RArmCollarbone
+    100030: Clown001RArmPalm
+    100032: Clown001Ribcage
+    100034: Clown001RLeg1
+    100036: Clown001RLeg2
+    100038: Clown001RLegAnkle
+    100040: Clown001Spine
+    100042: controllerCon_01
+    100044: controllerCon_02
+    100046: Object001
+    100048: Object002
+    100050: touristZombieMesh001
+    100052: //RootNode
+    400000: Clown001_chin
+    400002: Clown001_tongue
+    400004: Clown001Head
+    400006: Clown001LArm1
+    400008: Clown001LArm2
+    400010: Clown001LArmCollarbone
+    400012: Clown001LArmPalm
+    400014: Clown001LLeg1
+    400016: Clown001LLeg2
+    400018: Clown001LLegAnkle
+    400020: Clown001Neck
+    400022: Clown001Pelvis
+    400024: Clown001RArm1
+    400026: Clown001RArm2
+    400028: Clown001RArmCollarbone
+    400030: Clown001RArmPalm
+    400032: Clown001Ribcage
+    400034: Clown001RLeg1
+    400036: Clown001RLeg2
+    400038: Clown001RLegAnkle
+    400040: Clown001Spine
+    400042: controllerCon_01
+    400044: controllerCon_02
+    400046: Object001
+    400048: Object002
+    400050: touristZombieMesh001
+    400052: //RootNode
+    4300000: touristZombieMesh001
+    4300002: Object001
+    4300004: Object002
+    7400000: Walk
+    7400002: Spawning
+    7400004: Pre-explosion
+    7400006: Explosion
+    9500000: //RootNode
+    13700000: Object001
+    13700002: Object002
+    13700004: touristZombieMesh001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Zombie_Mod - Copy
+      firstFrame: 40
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Clown001Pelvis
+        weight: 1
+      - path: Clown001Pelvis/Clown001LLeg1
+        weight: 1
+      - path: Clown001Pelvis/Clown001LLeg1/Clown001LLeg2
+        weight: 1
+      - path: Clown001Pelvis/Clown001LLeg1/Clown001LLeg2/Clown001LLegAnkle
+        weight: 1
+      - path: Clown001Pelvis/Clown001RLeg1
+        weight: 1
+      - path: Clown001Pelvis/Clown001RLeg1/Clown001RLeg2
+        weight: 1
+      - path: Clown001Pelvis/Clown001RLeg1/Clown001RLeg2/Clown001RLegAnkle
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2/Clown001LArmPalm
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2/Clown001LArmPalm/controllerCon_01
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2/Clown001LArmPalm/controllerCon_01/controllerCon_02
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck/Clown001Head
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck/Clown001Head/Clown001_chin
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck/Clown001Head/Clown001_chin/Clown001_tongue
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone/Clown001RArm1
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone/Clown001RArm1/Clown001RArm2
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone/Clown001RArm1/Clown001RArm2/Clown001RArmPalm
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: touristZombieMesh001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Spawning
+      takeName: Zombie_Mod - Copy
+      firstFrame: 400
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Clown001Pelvis
+        weight: 1
+      - path: Clown001Pelvis/Clown001LLeg1
+        weight: 1
+      - path: Clown001Pelvis/Clown001LLeg1/Clown001LLeg2
+        weight: 1
+      - path: Clown001Pelvis/Clown001LLeg1/Clown001LLeg2/Clown001LLegAnkle
+        weight: 1
+      - path: Clown001Pelvis/Clown001RLeg1
+        weight: 1
+      - path: Clown001Pelvis/Clown001RLeg1/Clown001RLeg2
+        weight: 1
+      - path: Clown001Pelvis/Clown001RLeg1/Clown001RLeg2/Clown001RLegAnkle
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2/Clown001LArmPalm
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2/Clown001LArmPalm/controllerCon_01
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2/Clown001LArmPalm/controllerCon_01/controllerCon_02
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck/Clown001Head
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck/Clown001Head/Clown001_chin
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck/Clown001Head/Clown001_chin/Clown001_tongue
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone/Clown001RArm1
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone/Clown001RArm1/Clown001RArm2
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone/Clown001RArm1/Clown001RArm2/Clown001RArmPalm
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: touristZombieMesh001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Pre-explosion
+      takeName: Zombie_Mod - Copy
+      firstFrame: 1015
+      lastFrame: 1040
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Clown001Pelvis
+        weight: 1
+      - path: Clown001Pelvis/Clown001LLeg1
+        weight: 1
+      - path: Clown001Pelvis/Clown001LLeg1/Clown001LLeg2
+        weight: 1
+      - path: Clown001Pelvis/Clown001LLeg1/Clown001LLeg2/Clown001LLegAnkle
+        weight: 1
+      - path: Clown001Pelvis/Clown001RLeg1
+        weight: 1
+      - path: Clown001Pelvis/Clown001RLeg1/Clown001RLeg2
+        weight: 1
+      - path: Clown001Pelvis/Clown001RLeg1/Clown001RLeg2/Clown001RLegAnkle
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2/Clown001LArmPalm
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2/Clown001LArmPalm/controllerCon_01
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2/Clown001LArmPalm/controllerCon_01/controllerCon_02
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck/Clown001Head
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck/Clown001Head/Clown001_chin
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck/Clown001Head/Clown001_chin/Clown001_tongue
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone/Clown001RArm1
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone/Clown001RArm1/Clown001RArm2
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone/Clown001RArm1/Clown001RArm2/Clown001RArmPalm
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: touristZombieMesh001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Explosion
+      takeName: Zombie_Mod - Copy
+      firstFrame: 1041
+      lastFrame: 1055
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Clown001Pelvis
+        weight: 1
+      - path: Clown001Pelvis/Clown001LLeg1
+        weight: 1
+      - path: Clown001Pelvis/Clown001LLeg1/Clown001LLeg2
+        weight: 1
+      - path: Clown001Pelvis/Clown001LLeg1/Clown001LLeg2/Clown001LLegAnkle
+        weight: 1
+      - path: Clown001Pelvis/Clown001RLeg1
+        weight: 1
+      - path: Clown001Pelvis/Clown001RLeg1/Clown001RLeg2
+        weight: 1
+      - path: Clown001Pelvis/Clown001RLeg1/Clown001RLeg2/Clown001RLegAnkle
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2/Clown001LArmPalm
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2/Clown001LArmPalm/controllerCon_01
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001LArmCollarbone/Clown001LArm1/Clown001LArm2/Clown001LArmPalm/controllerCon_01/controllerCon_02
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck/Clown001Head
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck/Clown001Head/Clown001_chin
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001Neck/Clown001Head/Clown001_chin/Clown001_tongue
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone/Clown001RArm1
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone/Clown001RArm1/Clown001RArm2
+        weight: 1
+      - path: Clown001Pelvis/Clown001Spine/Clown001Ribcage/Clown001RArmCollarbone/Clown001RArm1/Clown001RArm2/Clown001RArmPalm
+        weight: 1
+      - path: Object001
+        weight: 1
+      - path: Object002
+        weight: 1
+      - path: touristZombieMesh001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

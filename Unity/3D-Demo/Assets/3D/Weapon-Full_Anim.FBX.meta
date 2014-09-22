@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: d728d3e6469ea0c47945c718d8da5bc7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Arrow 01
+    100002: Arrow 02
+    100004: Arrow 03
+    100006: Arrow_Box
+    100008: Arrow_Principal
+    100010: Crossbow_Base
+    100012: Dummy-Arrow
+    100014: Dummy-Gun
+    100016: Object001
+    100018: //RootNode
+    400000: Arrow 01
+    400002: Arrow 02
+    400004: Arrow 03
+    400006: Arrow_Box
+    400008: Arrow_Principal
+    400010: Crossbow_Base
+    400012: Dummy-Arrow
+    400014: Dummy-Gun
+    400016: Object001
+    400018: //RootNode
+    2300000: Arrow 01
+    2300002: Arrow 02
+    2300004: Arrow 03
+    2300006: Arrow_Box
+    2300008: Arrow_Principal
+    2300010: Crossbow_Base
+    2300012: Object001
+    3300000: Arrow 01
+    3300002: Arrow 02
+    3300004: Arrow 03
+    3300006: Arrow_Box
+    3300008: Arrow_Principal
+    3300010: Crossbow_Base
+    3300012: Object001
+    4300000: Object001
+    4300002: Crossbow_Base
+    4300004: Arrow_Box
+    4300006: Arrow 02
+    4300008: Arrow 03
+    4300010: Arrow 01
+    4300012: Arrow_Principal
+    7400000: Bored
+    7400002: Idle
+    7400004: Run
+    7400006: Walk
+    7400008: Fire
+    7400010: Reload
+    7400012: Load
+    7400014: Unload
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: CB_Final_02
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy-Gun
+        weight: 1
+      - path: Dummy-Gun/Arrow 01
+        weight: 1
+      - path: Dummy-Gun/Arrow 02
+        weight: 1
+      - path: Dummy-Gun/Arrow 03
+        weight: 1
+      - path: Dummy-Gun/Arrow_Box
+        weight: 1
+      - path: Dummy-Gun/Crossbow_Base
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow/Arrow_Principal
+        weight: 1
+      - path: Dummy-Gun/Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bored
+      takeName: CB_Final_02
+      firstFrame: 65
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy-Gun
+        weight: 1
+      - path: Dummy-Gun/Arrow 01
+        weight: 1
+      - path: Dummy-Gun/Arrow 02
+        weight: 1
+      - path: Dummy-Gun/Arrow 03
+        weight: 1
+      - path: Dummy-Gun/Arrow_Box
+        weight: 1
+      - path: Dummy-Gun/Crossbow_Base
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow/Arrow_Principal
+        weight: 1
+      - path: Dummy-Gun/Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: CB_Final_02
+      firstFrame: 150
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy-Gun
+        weight: 1
+      - path: Dummy-Gun/Arrow 01
+        weight: 1
+      - path: Dummy-Gun/Arrow 02
+        weight: 1
+      - path: Dummy-Gun/Arrow 03
+        weight: 1
+      - path: Dummy-Gun/Arrow_Box
+        weight: 1
+      - path: Dummy-Gun/Crossbow_Base
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow/Arrow_Principal
+        weight: 1
+      - path: Dummy-Gun/Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: CB_Final_02
+      firstFrame: 105
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy-Gun
+        weight: 1
+      - path: Dummy-Gun/Arrow 01
+        weight: 1
+      - path: Dummy-Gun/Arrow 02
+        weight: 1
+      - path: Dummy-Gun/Arrow 03
+        weight: 1
+      - path: Dummy-Gun/Arrow_Box
+        weight: 1
+      - path: Dummy-Gun/Crossbow_Base
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow/Arrow_Principal
+        weight: 1
+      - path: Dummy-Gun/Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fire
+      takeName: CB_Final_02
+      firstFrame: 175
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy-Gun
+        weight: 1
+      - path: Dummy-Gun/Arrow 01
+        weight: 1
+      - path: Dummy-Gun/Arrow 02
+        weight: 1
+      - path: Dummy-Gun/Arrow 03
+        weight: 1
+      - path: Dummy-Gun/Arrow_Box
+        weight: 1
+      - path: Dummy-Gun/Crossbow_Base
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow/Arrow_Principal
+        weight: 1
+      - path: Dummy-Gun/Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Reload
+      takeName: CB_Final_02
+      firstFrame: 195
+      lastFrame: 205
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy-Gun
+        weight: 1
+      - path: Dummy-Gun/Arrow 01
+        weight: 1
+      - path: Dummy-Gun/Arrow 02
+        weight: 1
+      - path: Dummy-Gun/Arrow 03
+        weight: 1
+      - path: Dummy-Gun/Arrow_Box
+        weight: 1
+      - path: Dummy-Gun/Crossbow_Base
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow/Arrow_Principal
+        weight: 1
+      - path: Dummy-Gun/Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Load
+      takeName: CB_Final_02
+      firstFrame: 210
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy-Gun
+        weight: 1
+      - path: Dummy-Gun/Arrow 01
+        weight: 1
+      - path: Dummy-Gun/Arrow 02
+        weight: 1
+      - path: Dummy-Gun/Arrow 03
+        weight: 1
+      - path: Dummy-Gun/Arrow_Box
+        weight: 1
+      - path: Dummy-Gun/Crossbow_Base
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow/Arrow_Principal
+        weight: 1
+      - path: Dummy-Gun/Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Unload
+      takeName: CB_Final_02
+      firstFrame: 235
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy-Gun
+        weight: 1
+      - path: Dummy-Gun/Arrow 01
+        weight: 1
+      - path: Dummy-Gun/Arrow 02
+        weight: 1
+      - path: Dummy-Gun/Arrow 03
+        weight: 1
+      - path: Dummy-Gun/Arrow_Box
+        weight: 1
+      - path: Dummy-Gun/Crossbow_Base
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow
+        weight: 1
+      - path: Dummy-Gun/Dummy-Arrow/Arrow_Principal
+        weight: 1
+      - path: Dummy-Gun/Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
